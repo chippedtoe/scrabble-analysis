@@ -1,7 +1,10 @@
-# Analysis of Scrabble scores following each OWL word list update.
+# Analysis of Scrabble scores following each Official Word List (OWL) update.
 
 ## Scope
-Analysis of Scrabble games held from 1973 to 2017 to assess whether the addition of words to the official Scrabble Official Word List (OWL) affected final player scores. For this analysis, I created a time-series graph of winning and losing scores by player rating, noting that players with ratings over 500 are more experienced than those with ratings under 500 - as determined by the official rules for calculating player rating and ranking by state.
+By 2017, there were three (3) updates to Scrabble's Official Word List (OWL), with the first being released in 2006. I hypothesized that a more expanded list would reap better performance for players, given they had more words to play. To test this hypothesis, I analysed data from Scrabble games held from 1973 to 2017.
+
+## Analysis
+For this analysis, I created a time-series graph of average weekly scores by player rating - noting that players with ratings over 500 are more experienced than those with ratings under 500 - as determined by the official rules for calculating player rating and ranking by state. The lowest rating at the time was 535, with higher ratings up to 2014 points (NASPA, 2022). I later decided to split the data further into winning and losing scores - to get a sense of overall change without losing information on how different players performed. I additionally marked the first word list update as well as two others up to the year of the last data point 2017.
 
 ## Results
 ### Average Winning Scores per Week by Player Rating
